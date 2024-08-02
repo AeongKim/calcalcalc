@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'view/div_calc.dart';
 import 'view/home.dart';
 import 'view/sub_calc.dart';
 
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         // '/add' : (context) => const Add(),
         '/sub': (context) => const SubCalc(),
         // '/mul' : (context) => const Mul(),
-        // '/div' : (context) => const Div(),
+        '/div' : (context) => const divCalc(),
       },
       initialRoute: '/',
       debugShowCheckedModeBanner: false,
